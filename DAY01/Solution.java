@@ -36,6 +36,7 @@ public class Solution
         System.out.print("Enter the second number:");
         num2=myobj2.nextInt();
 
+        //compare
         if(num1>=num2)
         {
             System.out.println("Number "+num1+" is greater or equal to:"+num2);
