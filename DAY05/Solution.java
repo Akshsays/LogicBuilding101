@@ -45,6 +45,7 @@ public class Solution
             sum=sum+remainder;
             num=num/10;
         }
+        
         System.out.println("Sum of the numbers is:"+sum);
     }
 
