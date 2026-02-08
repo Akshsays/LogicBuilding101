@@ -27,31 +27,28 @@ public class Solution
         }
         System.out.println("\n");
     }
+    
     static void Q3()
     {
         int i,j;
-        for(i=1;i<=5;i++)
+        for(i=1; i<=5; i++)
         {
-            System.out.print(" ");
-            for(j=1;j<=5;j++)
+            for(j=1; j<=5; j++)
             {
-                if(i==1||i==5||j==1||j==5)
-                {
-                    System.out.print("* ");
-                }
+                if(i==1 || i==5 || j==1 || j==5)
+                System.out.print("* ");
                 else
                 {
-                    System.out.print(" ");
+                System.out.print("  ");
                 }
             }
-            System.out.println();
-            // confused on hallow pattern
-        }
+            System.out.println(); // newline after each row
+            }
     }
 
     public static void main(String[] args) {
-        Q1();
-        Q2();
-        // Q3();
+        // Q1();
+        // Q2();
+        Q3();
     }
 }
