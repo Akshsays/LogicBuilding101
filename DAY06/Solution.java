@@ -27,7 +27,7 @@ public class Solution
         }
         System.out.println("\n");
     }
-    
+// hallow
     static void Q3()
     {
         int i,j;
@@ -47,8 +47,8 @@ public class Solution
     }
 
     public static void main(String[] args) {
-        // Q1();
-        // Q2();
+        Q1();
+        Q2();
         Q3();
     }
 }
