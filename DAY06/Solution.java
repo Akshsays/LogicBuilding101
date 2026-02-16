@@ -10,7 +10,7 @@ public class Solution
             {
                 System.out.print("* "); // column
             }
-            System.out.println(1); // row
+            System.out.println(); // row
         }
     }
 // right angle traingle 
@@ -23,7 +23,7 @@ public class Solution
             {
                 System.out.print("*");
             }
-            System.out.println(1);
+            System.out.println();
         }
         System.out.println("\n");
     }
